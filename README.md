@@ -10,6 +10,7 @@ Ensure that all software packages are installed and change the paths in the scri
 -Spades
 -iPCRess
 -Blast
+-Bedtools
 -BWA
 -GATK
 
