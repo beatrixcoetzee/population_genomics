@@ -12,6 +12,7 @@ library(haplotypes)
 myvcf <-read.vcfR("Plink_final.vcf")
 
 #read in population metadata
+#metadata is comma-delimited, with fields for Isolate name, origin etc.
 pops <-read_csv("pops_meta.txt")
 SApop2 <-as.character(pops$Locality)
 SApopfac <-factor(SApop2)
