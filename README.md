@@ -54,9 +54,9 @@ Example: extract avirulence genes of L. maculans from assemlbed genomes, and Bla
 
 
 Example data: <br/>
-SraRunTable.txt  Tab-delimited file the NBCI's short read archive (SRA) numbers and isolate   names <br/>
-Avr_primers.txt <br/>
-AvrLm_ref_alleles.fa <br/>
-REFChrom.list
-sample.map
+SraRunTable.txt:  Tab-delimited file contianing the NBCI's short read archive (SRA) numbers and isolate names <br/>
+Avr_primers.txt: Primers used to extrac L. maculans Avr genes with in silico PCR (it's just the first and last +/- 15 nts of eahc Arv gene) <br/>
+AvrLm_ref_alleles.fa: Databasis of current L. maculans Avr alleles <br/>
+REFChrom.list: directory of files, for each of the chromosomes in you reference sequence, each file containing the name of the chormosome <br/>
+sample.map: list of isolate/sample names and path to their repective vcf files
 
