@@ -18,6 +18,7 @@ Ensure that all software packages are installed and change the paths in the scri
 -GATK <br/>
 -Python2 <br/>
 -Java <br/>
+-Plink <br/>
 
 
 1. Ouality_control.sh
