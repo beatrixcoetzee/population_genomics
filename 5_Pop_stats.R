@@ -8,6 +8,7 @@ library(haplotypes)
 
 
 #############read in data from vcf######################## 
+#Change input file name if necessary. 
 myvcf <-read.vcfR("Plink_final.vcf")
 
 #read in population metadata
