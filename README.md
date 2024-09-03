@@ -31,6 +31,7 @@ Script to do an in silico PCR do detemine location of region of interest in asse
 Example: extract avirulence genes of L. maculans from assemlbed genomes, and Blast against known Avr alleles to determine allele identity. The extracted genes can then be exported to be futher examined in an alignment program.
 
 Example data: <br/>
+SraRunTable.txt
 Avr_primers.txt <br/>
 Avr_alleles.fa <br/>
 
