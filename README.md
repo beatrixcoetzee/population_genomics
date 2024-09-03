@@ -5,7 +5,7 @@ A set of bash scripts for quality control, assembly, in silico PCR of HTS data t
 and mapping and variant calling of HTS data for population genetics.
 
 Ensure that all software packages are installed and change the paths in the scripts to be able to find the sofware:
--SRA-toolkit < br / >
+-SRA-toolkit <br/>
 -TrimGalore! < br / >
 -Spades < br / >
 -iPCRess < br / >
