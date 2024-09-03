@@ -37,7 +37,8 @@ Combine variant calling data for isolates into a database suitalbe for GATK.
 4.	Variant_calling_filter.sh 
 Recallibrate variant calls and filter.
 
-5.
+5. Pop_stats.R
+R scirpt to do DAPC, admixture analysis, amova and calculate population statistics.
 
 6a. 	Assembly.sh 
 Wrapper script to submit Ind_assembly.sh script for each isolate in dataset. To reduce walltime in comparison to doing it in series.
