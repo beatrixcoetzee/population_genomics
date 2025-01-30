@@ -1,4 +1,4 @@
-# crispy-dollop
+# Population genomics
 A collection of bash scripts for HTS data analysis
 
 A set of bash scripts for quality control (1), mapping (2,3) and variant calling (4)  of HTS data and an R script for population genetics (5); and assembly (6) and in silico PCR (7) of HTS data to extract gene regions.
