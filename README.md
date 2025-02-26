@@ -57,7 +57,7 @@ Script to assembly Illumina fastq data with Spades.
 
 7.	In_silico_PCR_blast.sh <br/>
 
-Script to do an in silico PCR do detemine location of region of interest in assebled genomes, extract region of interes from genomes, and perform a local Blast to determine nucleotide identity to a databases of known genes.
+Script to do an in silico PCR do detemine location of region of interest in assebled genomes, extract region of interest from genomes, and perform a local Blast to determine nucleotide identity to a databases of known genes.
 Example: extract avirulence genes of L. maculans from assembled genomes, and Blast against known Avr alleles to determine allele identity. The extracted genes can then be exported to be further examined in an alignment program.
 
 Example data: <br/>
@@ -65,6 +65,7 @@ Example data: <br/>
 SraRunTable.txt:  Tab-delimited file contianing the NBCI's short read archive (SRA) numbers and isolate names <br/>
 
 Avr_primers.txt: Primers used to extrac L. maculans Avr genes with in silico PCR (it's just the first and last +/- 15 nts of eahc Arv gene) <br/>
+
 AvrLm_ref_alleles.fa: Databasis of current L. maculans Avr alleles <br/>
 
 REFChrom.list: directory of files, for each of the chromosomes in you reference sequence, each file containing the name of the chormosome <br/>
